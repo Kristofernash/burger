@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
-	<title> Burg Burger Burgers!</title>
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="/assets/js/burgers.js"></script>
-	<body>
+		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+		<title>MVC With Cats!</title>
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="/assets/js/burger.js"></script>
+	</head>
 	<style>
   .burger-component{
     height:10px;
@@ -50,6 +49,9 @@
     width:200px;
     text-align: center;
   }
+  body{
+	  background:red;
+  }
 </style>
 
 <div id="top-bun" class="burger-component"></div>
@@ -60,16 +62,8 @@
 <div id="bottom-lettuce" class="burger-component"></div>
 <div id="bottom-bun" class="burger-component"></div>
 <div id="burger-text">
- 
 </div>
-	
-</head>
-
-
-	{{{ body }}}
-
-	
-
-</body>
-
+	<body>
+		{{{ body }}}
+	</body>
 </html>
